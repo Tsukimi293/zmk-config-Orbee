@@ -5,7 +5,6 @@
 
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 6
-#include "keycode_japanese.h"
 
 &mt {
     flavor = "balanced";
