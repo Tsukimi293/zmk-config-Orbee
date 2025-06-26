@@ -73,10 +73,10 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp DOLLAR       &kp PERCENT                    &kp AMPERSAND  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
-&kp C_BRI_DN     &kp C_BRI_UP       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans       &trans    &trans  &trans         &trans   &trans                &kp AT_SIGN            &kp LEFT_BRACKET
-&kp LS(LG(S))    &trans             &trans             &trans           &trans       &trans    &trans  &trans         &trans   &kp SEMICOLON         &kp COLON              &kp RIGHT_BRACKET
-&trans           &trans             &trans             &trans           &trans       &trans    &trans  &trans                                                               &kp UNDERSCORE
+&kp EXCLAMATION  &kp LS(SINGLE_QUOTE)  &kp POUND          &kp DOLLAR       &kp PERCENT                    &kp LS(N7)  &kp SQT  &kp LS(N9)     &kp LS(N0)         &kp LS(GRAVE)
+&kp C_BRI_DN     &kp C_BRI_UP          &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans       &trans    &trans  &trans      &trans   &trans         &kp LS(NUMBER_2)   &kp AT_SIGN
+&kp LS(LG(S))    &trans                &trans             &trans           &trans       &trans    &trans  &trans      &trans   &kp SEMICOLON  &kp LS(SEMICOLON)  &kp LEFT_BRACKET
+&trans           &trans                &trans             &trans           &trans       &trans    &trans  &trans                                                 &kp LS(MINUS)
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -84,10 +84,10 @@
 
         layer_2 {
             bindings = <
-&kp LG(TAB)   &kp LC(LG(LEFT))  &kp UP    &kp LC(LG(RIGHT))  &kp LC(LA(TAB))                    &trans  &trans  &trans  &trans  &trans
-&kp LC(HOME)  &kp LEFT          &kp DOWN  &kp RIGHT          &kp LC(END)      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp LA(LEFT)      &trans    &kp LA(RIGHT)      &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans            &trans    &trans             &trans           &trans    &trans  &trans                          &trans
+&kp LG(TAB)     &kp LC(LG(LEFT))  &kp UP    &kp LC(LG(RIGHT))  &kp LC(LA(TAB))                    &trans  &trans  &trans  &trans  &trans
+&kp LC(HOME)    &kp LEFT          &kp DOWN  &kp RIGHT          &kp LC(END)      &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp C_PREVIOUS  &kp LA(LEFT)      &trans    &kp LA(RIGHT)      &kp C_NEXT       &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans            &trans    &trans             &trans           &trans    &trans  &trans                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
