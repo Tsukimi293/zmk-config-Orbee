@@ -73,10 +73,10 @@
 
         layer_1 {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp HASH         &kp PERCENT                    &kp AMPERSAND  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET
-&kp C_BRI_INC    &kp C_BRI_UP       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans       &trans    &trans  &trans         &trans   &trans                &kp AT                 &kp LBKT
-&kp LS(LG(S))    &trans             &trans             &trans           &trans       &trans    &trans  &trans         &trans   &kp SEMI              &kp COLON              &kp RBKT
-&trans           &trans             &trans             &trans           &trans       &trans    &trans  &trans                                                               &kp UNDER
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp POUND          &kp DOLLAR       &kp PERCENT                    &kp AMPERSAND  &kp SQT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp TILDE
+&kp C_BRI_DN     &kp C_BRI_UP       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans       &trans    &trans  &trans         &trans   &trans                &kp AT_SIGN            &kp LEFT_BRACKET
+&kp LS(LG(S))    &trans             &trans             &trans           &trans       &trans    &trans  &trans         &trans   &kp SEMICOLON         &kp COLON              &kp RIGHT_BRACKET
+&trans           &trans             &trans             &trans           &trans       &trans    &trans  &trans                                                               &kp UNDERSCORE
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -86,7 +86,7 @@
             bindings = <
 &kp LG(TAB)   &kp LC(LG(LEFT))  &kp UP    &kp LC(LG(RIGHT))  &kp LC(LA(TAB))                    &trans  &trans  &trans  &trans  &trans
 &kp LC(HOME)  &kp LEFT          &kp DOWN  &kp RIGHT          &kp LC(END)      &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &kp LG(LEFT)      &trans    &kp LG(RIGHT)      &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &kp LA(LEFT)      &trans    &kp LA(RIGHT)      &trans           &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans        &trans            &trans    &trans             &trans           &trans    &trans  &trans                          &trans
             >;
 
@@ -95,10 +95,10 @@
 
         layer_3 {
             bindings = <
-&kp N1  &kp N2   &kp N3   &kp N4   &kp N5                    &kp N6  &kp N7  &kp N8  &kp N9  &kp N0
-&kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans    &trans  &trans  &kp N4  &kp N5  &kp N6  &kp DOT
-&kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans    &trans  &trans  &kp N1  &kp N2  &kp N3  &kp FSLH
-&kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans    &trans  &trans                          &trans
+&kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3  &kp KP_NUMBER_4  &kp KP_N5                    &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_N8        &kp KP_NUMBER_9  &kp KP_NUMBER_0
+&kp F1           &kp F2     &kp F3     &kp F4           &trans     &trans    &trans  &trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PERIOD
+&kp F5           &kp F6     &kp F7     &kp F8           &trans     &trans    &trans  &trans           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp FSLH
+&kp F9           &kp F10    &kp F11    &kp F12          &trans     &trans    &trans  &trans                                                              &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
