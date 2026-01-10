@@ -19,7 +19,7 @@
             bindings = <&mo 5>;
             key-positions = <19 20>;
             timeout-ms = <200>;
-            layers = <6 0>;
+            layers = <0>;
         };
 
         L1_L2_to_L4 {
@@ -27,6 +27,13 @@
             key-positions = <39 38>;
             timeout-ms = <200>;
             layers = <0>;
+        };
+
+        ScrollMode_Mouse {
+            bindings = <&mo 5>;
+            key-positions = <19 20>;
+            timeout-ms = <200>;
+            layers = <6>;
         };
     };
 
