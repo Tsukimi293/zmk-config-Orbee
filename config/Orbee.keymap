@@ -22,7 +22,7 @@
             layers = <1>;
         };
 
-        L1_L2_to_L4 {
+        L1_L2_to_L5 {
             bindings = <&mo 5>;
             key-positions = <39 38>;
             timeout-ms = <200>;
