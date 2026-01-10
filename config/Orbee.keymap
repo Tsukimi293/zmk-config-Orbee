@@ -19,7 +19,7 @@
             bindings = <&mo 5>;
             key-positions = <19 20>;
             timeout-ms = <200>;
-            layers = <6>;
+            layers = <6 0>;
         };
 
         L1_L2_to_L4 {
