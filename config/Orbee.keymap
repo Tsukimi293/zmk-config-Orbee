@@ -25,8 +25,8 @@
         L1_L2_to_L5 {
             bindings = <&mo 5>;
             key-positions = <39 38>;
-            timeout-ms = <200>;
-            layers = <0>;
+            timeout-ms = <500>;
+            layers = <0 1>;
         };
     };
 
