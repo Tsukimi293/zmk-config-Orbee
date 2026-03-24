@@ -99,10 +99,10 @@
 
         layer_3 {
             bindings = <
-&kp LG(TAB)      &kp LC(LG(LEFT))  &kp UP_ARROW    &kp LC(LG(RIGHT))  &kp LC(LA(TAB))                    &kp LC(T)   &kp LC(N)      &kp LC(W)      &kp LA(F4)   &kp LC(LS(T))
-&kp LC(HOME)     &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &kp LC(END)      &trans    &trans  &kp LC(Z)   &kp LC(A)      &kp LC(C)      &kp LC(V)    &kp LG(V)
-&kp LC(LS(TAB))  &kp LA(LEFT)      &trans          &kp LA(RIGHT)      &kp LC(TAB)      &trans    &trans  &kp LA(F1)  &kp LG(LA(N))  &kp LC(COMMA)  &kp LC(DOT)  &kp LS(LG(S))
-&trans           &trans            &trans          &trans             &trans           &trans    &trans  &trans                                                 &kp LS(LA(R))
+&kp LG(TAB)      &kp LC(LG(LEFT))  &kp UP_ARROW    &kp LC(LG(RIGHT))  &kp LC(LA(TAB))                    &kp LC(T)   &kp LC(N)  &kp LC(W)      &kp LA(F4)   &kp LC(LS(T))
+&kp LC(HOME)     &kp LEFT          &kp DOWN_ARROW  &kp RIGHT          &kp LC(END)      &trans    &trans  &kp LC(Z)   &kp LC(A)  &kp LC(C)      &kp LC(V)    &kp LG(D)
+&kp LC(LS(TAB))  &kp LA(LEFT)      &trans          &kp LA(RIGHT)      &kp LC(TAB)      &trans    &trans  &kp LA(F1)  &kp LG(V)  &kp LC(COMMA)  &kp LC(DOT)  &kp LS(LG(S))
+&trans           &trans            &trans          &trans             &trans           &trans    &trans  &trans                                             &kp LS(LA(R))
             >;
 
             sensor-bindings = <&scroll_up_down>;
