@@ -43,7 +43,7 @@
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
+            bindings = <&mo &to_layer_0>;
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
@@ -52,7 +52,7 @@
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            bindings = <&msc SCRL_UP &msc SCRL_DOWN>;
 
             tap-ms = <20>;
         };
@@ -80,7 +80,7 @@
 &to_layer_0 Q     &to_layer_0 W         &to_layer_0 E     &to_layer_0 R     &to_layer_0 T                                  &to_layer_0 Y                &to_layer_0 U  &to_layer_0 I      &to_layer_0 O    &to_layer_0 P
 &mt LCTRL A       &to_layer_0 S         &to_layer_0 D     &to_layer_0 F     &to_layer_0 G  &trans         &trans           &to_layer_0 H                &to_layer_0 J  &mkp LCLK          &mkp RCLK        &mt RCTRL MINUS
 &mt LEFT_SHIFT Z  &to_layer_0 X         &to_layer_0 C     &to_layer_0 V     &to_layer_0 B  &trans         &trans           &to_layer_0 N                &to_layer_0 M  &to_layer_0 COMMA  &to_layer_0 DOT  &mt RIGHT_SHIFT SLASH
-&to_layer_0 TAB   &to_layer_0 LEFT_GUI  &to_layer_0 LALT  &to_layer_0 INT5  &lt 2 SPACE    &lt 3 ENTER    &lt 4 BACKSPACE  &to_layer_0 INTERNATIONAL_4                                                     &to_layer_0 RIGHT_ALT
+&to_layer_0 TAB   &to_layer_0 LEFT_GUI  &to_layer_0 LEFT_ALT  &to_layer_0 INTERNATIONAL_5  &lt 2 SPACE    &lt 3 ENTER    &lt 4 BACKSPACE  &to_layer_0 INTERNATIONAL_4                                                     &to_layer_0 RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
