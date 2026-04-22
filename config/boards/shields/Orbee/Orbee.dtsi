@@ -4,16 +4,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
-        zmk,battery = &vbatt;
-    };
-
-    vbatt: vbatt {
-        compatible = "zmk,battery-voltage-divider";
-        label = "BATTERY";
-        io-channels = <&adc 7>;
-        output-ohms = <1000000>;
-        full-ohms = <2000000>;
-        power-gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
     };
 
     aliases {
@@ -79,4 +69,9 @@
         sensors = <&left_encoder0 &left_encoder1 &right_encoder>;
         triggers-per-rotation = <12>;
     };
+};
+
+&vbatt {
+    output-ohms = <1000000>;
+    full-ohms = <2000000>;
 };
